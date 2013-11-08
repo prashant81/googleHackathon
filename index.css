@@ -89,7 +89,7 @@ z-index:4;
 .LogIn{
 position:fixed;
 top:40%;
-left:37%;
+left:500px;
 -moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
         -webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
         box-shadow:inset 0px 1px 0px 0px #54a3f7;
@@ -138,7 +138,7 @@ left:37%;
 .SignUp{
 position:fixed;
 top:40%;
-left:47%;
+left:650px;
 -moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
         -webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
         box-shadow:inset 0px 1px 0px 0px #54a3f7;
@@ -183,3 +183,15 @@ left:47%;
         
         background-color:#0061a7;
 }
+
+	.LoginForm{
+		position:fixed;
+		
+		top:250px;
+		left:500px;
+		height:400px;
+		width:400px;
+		background-color:'black';
+		
+		}
+	
