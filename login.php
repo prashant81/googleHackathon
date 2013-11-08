@@ -1,10 +1,18 @@
 <html>
 <body>
 
-Welcome <?php
- echo $_POST["name"]; ?><br>
-Your email address is: <?php echo $_POST["email"]; 
+<?php
+$uname = $_POST["uname"];
+$pwd = $_POST["pwd"]; 
+
+$db=mysql_connect  ("localhost", "root",  "slayer123") or die ('I cannot connect to the database because: ' . mysql_error());
+
+$mydb=mysql_select_db("Outnablout");
+
 ?>
+
+
+
 
 </body>
 </html>
