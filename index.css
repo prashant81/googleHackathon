@@ -135,10 +135,15 @@ left:500px;
         background-color:#0061a7;
 }
 
-.SignUp{
+#signup{
+
+height:19em;
+width:10em;
+background-color:#A5EDF2;
 position:fixed;
+
 top:40%;
-left:650px;
+left:50px;
 -moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
         -webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
         box-shadow:inset 0px 1px 0px 0px #54a3f7;
@@ -151,7 +156,7 @@ left:650px;
         background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
         filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
         
-        background-color:#007dc1;
+        
         
         -moz-border-radius:3px;
         -webkit-border-radius:3px;

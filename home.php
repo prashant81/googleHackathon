@@ -1,13 +1,23 @@
-
 <html>
 <head><link rel="stylesheet" type="text/css" href="index.css"></head>
 <title> Home </title>
 </head>
 <body>
-<h1><?php
+<?php
  $user = $_COOKIE["user"];
  echo $user;
-?></h1>
+
+$dbhost = 'localhost';
+$dbuser = 'root';
+$dbpass = 'slayer123';
+$con=mysqli_connect($dbhost,$dbuser,$dbpass, "Outnabout");
+
+if (mysqli_connect_errno())
+  {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  }
+
+?>
 
 <div class= 'LocalHangouts'>
 		<font color='white' size=100% >Local Hangouts</font>
