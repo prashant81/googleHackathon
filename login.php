@@ -22,7 +22,11 @@ $result = mysqli_query($con, $query);
 
 while($row = mysqli_fetch_array($result))
   {
-  echo $row['UserUsername'] . " " . $row['UserPassword'];
+  //echo $row['UserUsername'] . " " . $row['UserPassword'];
+  $valueU = $row['UserUsername'];
+  $valueP = $row['UserPassword'];
+  setcookie($valueU, $valueP);
+  echo $_COOKIE[$valueU];
   header("Location: home.html");
   echo "<br>";
   }
