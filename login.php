@@ -27,7 +27,7 @@ while($row = mysqli_fetch_array($result))
   $valueP = $row['UserPassword'];
   setcookie($valueU, $valueP);
   echo $_COOKIE[$valueU];
-  header("Location: home.html");
+  header("Location: home.php");
   echo "<br>";
   }
 
