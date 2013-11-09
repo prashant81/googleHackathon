@@ -12,58 +12,42 @@ if (check_login_status() == false) {
 ?> 
 
 <html>
-<head>
+<head><link rel="stylesheet" type="text/css" href="index.css"></head>
 <title> Home </title>
-<style>
-
-#topmenu{
-position:fixed;
-height:50px;
-width:100%;
-background-color:black;
-font-family: Broadway;
-
-
-}
-
-.home{
-	position:fixed;
-	top:20px;
-	left:10px;
-	
-}
-.events{    
-	position:fixed;
-	top:20px;
-	left:200px;
-	
-}
-.profile{
-	position:fixed;
-	top:20px;
-	left:100px;
-	
-}
-.logout{
-	position:fixed;
-	top:20px;
-	right:10px;
-	
-}
 
 
 
-</style>
+
+
+
 </head>
 <body>
+<div class= 'LocalHangouts'>
+		<font color='white' size=100% >Local Hangouts</font>
+</div>
 
-<div id ="topmenu">
-<div class = "home"><font size="5px" color="white"> Home </font></div>
-<div class ="events"> <font size="5px" color="white"> Events </font></div>
-<div class= "profile"><font size="5px" color="white"> Profile </font></div>
-<div class = "logout"> <font size="5px" color="white"> Logout </font></div>
-</div> 
+<div class= 'FindWhereToGo'>
+		<font color='black' size=20px >find where to go</font>
+</div>
 
-<input 
+<div id='bubbles'>
+		<div class='bubble1'></div>
+		<div class='bubble2'></div>
+		<div class='bubble3'></div>
+		<div class='bubble4'></div>
+		<div class='bubble5'></div>
+		<div class='bubble6'></div>
+		<div class='magnifyingGlass'></div>
+	</div>
+
+
+<div class="topmenu"></div>
+<div class = "home"><font size="3px" color="white"> Home </font></div>
+<div class ="events"> <font size="3px" color="white"> Events </font></div>
+<div class= "profile"><font size="3px" color="white"> Profile </font></div>
+<div class = "logout"> <font size="4px" color="white"> Logout </font></div>
+
+
+
 </body>
 </html>
