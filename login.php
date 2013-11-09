@@ -23,13 +23,9 @@ mysqli_connect_error());
  exit();
 }
  
- // Escape any unsafe characters before querying database 
- $username = $mysqli->real_escape_string($uname); 
- $password = $mysqli->real_escape_string($pwd); 
- 
  // Construct SQL statement for query & execute 
- $sql = "SELECT * FROM User WHERE UserUsername = '" . 
-$username . "' AND UserPassword = '" . $password . "'"; 
+ $sql = "SELECT * FROM User WHERE UserUsername = 
+$uname AND UserPassword = $pwd"; 
  $result = $mysqli->query($sql); 
  
  // If one row is returned, username and password are valid 
