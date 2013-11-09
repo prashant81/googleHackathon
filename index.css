@@ -329,48 +329,32 @@ left:500px;
 	
 }
 
-#form{
+#people{
 position:fixed;
-top:400px;
-left:400px;
+top:20px;
+left:20px;
 }
 
 .block1{
 position:fixed;
 top:400px;
 left:350px;
-height:150px;
-width:200px;
-background-color:pink;
-opacity:0.7;
+height:350px;
+width:700px;
+background-color:darkblue;
+opacity:0.4;
 }
 
-.block2{
+.profilearea{
 position:fixed;
-top:400px;
-left:600px;
-height:150px;
+top:100px;
+left:20px;
+height:700px;
 width:200px;
-background-color:yellow;
-opacity:0.7;
+background-color:darkblue;
+opacity:0.1;
+
 }
 
-.block3{
-position:fixed;
-top:400px;
-left:850px;
-height:150px;
-width:200px;
-background-color:green;
-opacity:0.7;
-}
 
-.block4{
-position:fixed;
-top:600px;
-left:400px;
-height:150px;
-width:200px;
-background-color:green;
-opacity:0.7;
-}
+	

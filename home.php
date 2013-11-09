@@ -45,11 +45,13 @@ echo $_COOKIE[$valueU];
 </table>
 </form>
 
+<IMG >
 <div class='block1'></div>
-<div class='block2'></div>
-<div class='block3'></div>
-<div class='block4'></div>
-<div class='block5'></div>
+<div class='profilearea' padding=10px>
+<img id='empty' src="http://upload.wikimedia.org/wikipedia/en/f/f5/Question_mark.PNG" height='200px' width='200px'>
+<img STYLE="position:absolute; TOP:35px; LEFT:170px; WIDTH:250px; HEIGHT:150px" src="http://m3.licdn.com/mpr/mpr/shrink_80_80/p/2/000/19d/07c/19063ee.jpg" >
+
+</div>
 
 
 
