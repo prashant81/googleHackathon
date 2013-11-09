@@ -136,6 +136,10 @@ left:500px;
 }
 
 .SignUp{
+
+height:20em;
+width:10em;
+background-color:red;
 position:fixed;
 top:40%;
 left:650px;
