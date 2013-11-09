@@ -25,8 +25,8 @@ while($row = mysqli_fetch_array($result))
   //echo $row['UserUsername'] . " " . $row['UserPassword'];
   $valueU = $row['UserUsername'];
   $valueP = $row['UserPassword'];
-  setcookie($valueU, $valueP);
-  echo $_COOKIE[$valueU];
+  setcookie('user',$valueU);
+  echo $_COOKIE['user'];
   header("Location: home.php");
   echo "<br>";
   }

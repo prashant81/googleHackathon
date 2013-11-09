@@ -4,12 +4,14 @@ echo $_COOKIE[$valueU];
 <title> Home </title>
 </head>
 <body>
-
-
-
+<?php
+ $user = $_COOKIE["user"];
+ echo $user;
+?>
 <div class= 'LocalHangouts'>
 		<font color='white' size=100% >Local Hangouts</font>
 </div>
+<pre>
 
 <div class= 'FindWhereToGo'>
 		<font color='black' size=20px >find where to go</font>
