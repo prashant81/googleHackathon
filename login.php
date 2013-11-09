@@ -39,7 +39,7 @@ $username . "' AND UserPassword = '" . $password . "'";
  if (is_object($result) && $result->num_rows == 1) { 
  // Set session variable for login status to true 
  $_SESSION['logged_in'] = true; 
- redirect('home.html'); //user profile page
+ redirect('test.html'); //user profile page
  } else { 
  redirect('index.html'); 
  }
