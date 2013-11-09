@@ -1,4 +1,4 @@
-echo $_COOKIE[$valueU];
+
 <html>
 <head><link rel="stylesheet" type="text/css" href="index.css"></head>
 <title> Home </title>
@@ -49,10 +49,13 @@ echo $_COOKIE[$valueU];
 
 <IMG >
 <div class='block1'></div>
-<div class='profilearea' padding=10px>
-<img id='empty' src="http://upload.wikimedia.org/wikipedia/en/f/f5/Question_mark.PNG" height='200px' width='200px'>
-<img STYLE="position:absolute; TOP:35px; LEFT:170px; WIDTH:250px; HEIGHT:150px" src="http://m3.licdn.com/mpr/mpr/shrink_80_80/p/2/000/19d/07c/19063ee.jpg" >
 
+<div class='profilearea' padding=10px>
+<img src="http://upload.wikimedia.org/wikipedia/en/f/f5/Question_mark.PNG" height='200px' width='200px'>
+</div>
+
+<div class='image'>
+<img STYLE="position:absolute; TOP:35px; LEFT:200px; WIDTH:150px; HEIGHT:250px; opacity:1" src="http://m3.licdn.com/mpr/mpr/shrink_80_80/p/2/000/19d/07c/19063ee.jpg" >
 </div>
 
 
