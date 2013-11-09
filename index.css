@@ -187,11 +187,18 @@ left:650px;
 	.LoginForm{
 		position:fixed;
 		
-		top:250px;
-		left:500px;
+		top:10px;
+		left:1200px;
 		height:400px;
 		width:400px;
 		background-color:'black';
 		
 		}
+
+
+       #sub{
+        position:fixed;
+        top:10px;
+        left:1600px;
+       } 
 	
