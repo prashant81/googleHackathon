@@ -63,7 +63,7 @@ if (mysqli_connect_errno())
 
 <div class='profilearea' padding=10px></div>
 <div class='image1'>
-<img src="http://upload.wikimedia.org/wikipedia/en/f/f5/Question_mark.PNG" STYLE="position:absolute"; TOP:30px; LEFT:0px; WIDTH:200px; HEIGHT:250px; opacity:1">
+<img src="http://upload.wikimedia.org/wikipedia/en/f/f5/Question_mark.PNG" STYLE="position:absolute; TOP:30px; LEFT:0px; WIDTH:180px; HEIGHT:250px; opacity:1">
 </div>
 
 
