@@ -52,7 +52,7 @@ if (mysqli_connect_errno())
 <input type="text" name="zoom_query" style="width:300px; border:0px solid; height:40px; padding:0px 3px; position:fixed; top:300px; left:520px;"> 
 </td>
 <td style="border-style:solid;border-color:#4B7B9F;border-width:1px;"> 
-<input type="submit" value="" style="border-style: none; background: url('searchbutton3.gif') no-repeat; width: 24px; height: 20px;">
+<input type="submit" value="" style="border-style: none; width: 24px; height: 20px;">
 </td>
 </tr>
 </table>
