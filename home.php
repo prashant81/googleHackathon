@@ -5,8 +5,6 @@
 <body>
 <?php
  $user = $_COOKIE["user"];
- echo $user;
-
 $dbhost = 'localhost';
 $dbuser = 'root';
 $dbpass = 'slayer123';
@@ -17,6 +15,45 @@ if (mysqli_connect_errno())
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
   }
 
+
+$query = "SELECT * FROM User WHERE (UserUsername='$user')";
+//echo $query;
+$result = mysqli_query($con, $query);
+
+while($row = mysqli_fetch_array($result))
+  {
+  //echo $row['UserUsername'] . " " . $row['UserPassword'];
+  $userID = $row['UserID'];
+  //echo $userID;
+  }
+
+
+echo "<table border='1'>
+<tr>
+<th>Event Name</th>
+<th>Event Location</th>
+<th>Event Date</th>
+<th>Event Time</th>
+<th>Event Price</th>
+</tr>";
+
+$queryinterest = "SELECT E.*, EI.* FROM User U, UserInterest UI, EventInterest EI, Event E 
+WHERE U.UserID = UI.UserID AND UI.InterestID = EI.InterestID  AND EI.EventID = E.EventID AND U.UserID ='$userID'";
+$retevents = mysqli_query($con, $queryinterest);
+while($row1 = mysqli_fetch_array($retevents))
+  {
+ echo "<tr>";
+  echo "<td>" . $row1['EventName'] . "</td>";
+  echo "<td>" . $row1['EventLocation'] . "</td>";
+  echo "<td>" . $row1['EventDate'] . "</td>";
+  echo "<td>" . $row1['EventTime'] . "</td>";
+  echo "<td>" . $row1['EventPrice'] . "</td>";
+  echo "</tr>";
+  
+  }
+  
+
+mysqli_close($con);
 ?>
 
 <div class= 'LocalHangouts'>
