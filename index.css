@@ -330,9 +330,9 @@ left:500px;
 }
 
 .image{
-position:fixed;
+position:absolute;
 top:100px;
-left:0px;
+left:-50px;
 }
 
 .block1{
