@@ -5,6 +5,7 @@
 <body>
 <?php
  $user = $_COOKIE["user"];
+ 
 $dbhost = 'localhost';
 $dbuser = 'root';
 $dbpass = 'slayer123';
@@ -28,7 +29,7 @@ while($row = mysqli_fetch_array($result))
   }
 
 
-echo "<table border='1'>
+echo "<table id='infotable' align='right' border='1'>
 <tr>
 <th>Event Name</th>
 <th>Event Location</th>
@@ -51,6 +52,7 @@ while($row1 = mysqli_fetch_array($retevents))
   echo "</tr>";
   
   }
+  
   
 
 mysqli_close($con);
@@ -77,22 +79,14 @@ mysqli_close($con);
 
 
 <div class="topmenu"></div>
-<div class = "home"><font size="3px" color="white"> Home </font></div>
-<div class ="events"> <font size="3px" color="white"> Events </font></div>
-<div class= "profile"><font size="3px" color="white"> Profile </font></div>
-<div class = "logout"> <font size="4px" color="white"> Logout </font></div>
 
 <form method="get" action="search.php"> 
 <table cellpadding="0px" cellspacing="0px"> 
 <tr> 
 <td style="border-style:solid none solid solid;border-color:#4B7B9F;border-width:1px;">
-<input type="text" name="zoom_query" style="width:300px; border:0px solid; height:40px; padding:0px 3px; position:fixed; top:300px; left:520px;"> 
-</td>
-<td style="border-style:solid;border-color:#4B7B9F;border-width:1px;"> 
-<input type="submit" value="" style="border-style: none; width: 24px; height: 20px;">
+<input type="text" name="zoom_query" style="width:300px; border:0px solid; height:40px; padding:0px 3px; position:fixed; top:150px; left:550px;"> 
 </td>
 
-</tr>
 </table>
 </form>
 
