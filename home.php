@@ -65,9 +65,6 @@ if (mysqli_connect_errno())
 <img src="http://upload.wikimedia.org/wikipedia/en/f/f5/Question_mark.PNG" STYLE="position:absolute; TOP:30px; LEFT:100px; WIDTH:150px; HEIGHT:250px; opacity:1">
 </div>
 
-<div class='image'>
-<img STYLE="position:absolute; TOP:30px; LEFT:100px; WIDTH:150px; HEIGHT:250px; opacity:1" src="http://m3.licdn.com/mpr/mpr/shrink_80_80/p/2/000/19d/07c/19063ee.jpg" >
-</div>
 
 
 
