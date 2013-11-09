@@ -54,6 +54,7 @@ if (mysqli_connect_errno())
 <td style="border-style:solid;border-color:#4B7B9F;border-width:1px;"> 
 <input type="submit" value="" style="border-style: none; width: 24px; height: 20px;">
 </td>
+
 </tr>
 </table>
 </form>
