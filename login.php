@@ -2,26 +2,22 @@
 $uname = $_POST["uname"];
 $pwd = $_POST["pwd"]; 
 
-require_once('config.inc.php'); 
-require_once('functions.inc.php'); 
-session_start(); 
-if ($_SESSION['logged_in'] == true) { 
- redirect('index.html'); 
-} else { 
- if ( (!isset($uname)) || (!isset($pwd])) 
-OR 
- (!ctype_alnum($uname)) ) { 
- redirect('index.html'); 
- }
 
- $mysqli = @new mysqli(DB_HOSTNAME, DB_USERNAME, DB_PASSWORD, 
-DB_DATABASE); 
-
- if (mysqli_connect_errno()) { 
- printf("Unable to connect to database: %s", 
-mysqli_connect_error()); 
- exit();
+$dbhost = 'localhost';
+   $dbuser = 'root';
+   $dbpass = 'slayer123';
+$con=mysqli_connect($dbhost,$dbuser,$dbpass, "Outnabout");
+// Check connection
+if (mysqli_connect_errno())
+  {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  }
+$queryU = 'SELECT UserUsername FROM User WHERE UserUsername = $uname';
+$queryP = 'SELECT UserPassword FROM User WHERE UserPassword = $pwd';
+if ($queryU && $queryP){
+	echo "well done";
 }
+<<<<<<< HEAD
  
  // Construct SQL statement for query & execute 
  $sql = "SELECT * FROM User WHERE UserUsername = 
@@ -37,4 +33,8 @@ $uname AND UserPassword = $pwd";
  redirect('index.html'); 
  }
 } 
+=======
+
+
+>>>>>>> 44a665eba4b0b838c3a6343d3661d22a24ad5812
 ?>
