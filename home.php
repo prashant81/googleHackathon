@@ -81,7 +81,9 @@ mysqli_close($con);
 <div class ="events"> <font size="3px" color="white"> Events </font></div>
 <div class= "profile"><font size="3px" color="white"> Profile </font></div>
 <div class = "logout"> <font size="4px" color="white"> Logout </font></div>
-
+<form action="logout.php"> 
+<input type="submit" value="Logout" style="border-style: none; width: 24px; height: 20px;">
+<form>
 <form method="get" action="search.php"> 
 <table cellpadding="0px" cellspacing="0px"> 
 <tr> 
