@@ -1,6 +1,3 @@
-<html>
-<body>
-
 <?php
 $uname = $_POST["uname"];
 $pwd = $_POST["pwd"]; 
@@ -44,12 +41,4 @@ $username . "' AND UserPassword = '" . $password . "'";
  redirect('index.html'); 
  }
 } 
-
-
 ?>
-
-
-
-
-</body>
-</html>
