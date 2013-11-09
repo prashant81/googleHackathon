@@ -1,13 +1,13 @@
-echo $_COOKIE[$valueU];
 <html>
 <head><link rel="stylesheet" type="text/css" href="index.css"></head>
 <title> Home </title>
 </head>
 <body>
-<?php
+<h1><?php
  $user = $_COOKIE["user"];
  echo $user;
-?>
+?></h1>
+
 <div class= 'LocalHangouts'>
 		<font color='white' size=100% >Local Hangouts</font>
 </div>
@@ -54,7 +54,6 @@ echo $_COOKIE[$valueU];
 <img STYLE="position:absolute; TOP:35px; LEFT:170px; WIDTH:250px; HEIGHT:150px" src="http://m3.licdn.com/mpr/mpr/shrink_80_80/p/2/000/19d/07c/19063ee.jpg" >
 
 </div>
-
 
 
 
