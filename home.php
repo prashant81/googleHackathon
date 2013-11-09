@@ -1,4 +1,4 @@
-
+echo $_COOKIE[$valueU];
 <html>
 <head><link rel="stylesheet" type="text/css" href="index.css"></head>
 <title> Home </title>
@@ -53,6 +53,6 @@
 
 
 
-echo $_COOKIE[$valueU];
+
 </body>
 </html>
