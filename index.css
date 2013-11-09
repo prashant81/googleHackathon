@@ -9,7 +9,7 @@ font-family: Broadway;
 .FindWhereToGo{
 position:fixed;
 top:25%;
-left:25%;
+left:580px;
 height:50px;
 width:30%;
 }
@@ -17,7 +17,7 @@ width:30%;
 .bubble1{
 position:fixed;
 top:25%;
-left:35%;
+left:500px;
 height:80px;
 width:80px;
 border-radius:100%;
@@ -29,7 +29,7 @@ z-index:4;
 .bubble2{
 position:fixed;
 top:25%;
-left:39%;
+left:580;
 height:80px;
 width:80px;
 border-radius:100%;
@@ -41,7 +41,7 @@ z-index:4;
 .bubble3{
 position:fixed;
 top:25%;
-left:43%;
+left:660px;
 height:80px;
 width:80px;
 border-radius:100%;
@@ -53,7 +53,7 @@ z-index:4;
 .bubble4{
 position:fixed;
 top:25%;
-left:47%;
+left:720px;
 height:80px;
 width:80px;
 border-radius:100%;
@@ -65,7 +65,7 @@ z-index:4;
 .bubble5{
 position:fixed;
 top:25%;
-left:51%;
+left:780px;
 height:80px;
 width:80px;
 border-radius:100%;
@@ -77,7 +77,7 @@ z-index:4;
 .bubble6{
 position:fixed;
 top:25%;
-left:55%;
+left:860;
 height:80px;
 width:80px;
 border-radius:100%;
@@ -317,21 +317,22 @@ left:500px;
 }
 .profile{
 	position:fixed;
-	top:100px;
-	left: 500px;
+	top:10px;
+	left: 1000px;
 	height:20px;
 	width:50px;
 	background-color:pink;
 	
 }
+
 .logout{
 	position:fixed;
-	top:20px;
-	left:1300px;
+	top:10px;
+	left: 1500px;
+	height:20px;
+	width:50px;
+	}
 
-	
-	
-}
 
 
 .block1{
